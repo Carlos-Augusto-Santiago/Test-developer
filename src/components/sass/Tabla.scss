@@ -1,0 +1,24 @@
+.table-content {
+    font-size: 20px;
+    table {
+        tr {
+            th {
+                padding: 0 15px;
+                word-wrap: break-word;
+                background-color: rgb(86, 159, 228);
+                color: white;
+                border: 2px solid black;
+            }
+            td {
+                padding: 0 10px;
+                border: 2px solid black;
+                &:first-child {
+                    font-weight: bold;
+                }
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
